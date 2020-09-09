@@ -1,0 +1,23 @@
+ul{
+    list-style-type: none;
+    padding: 0;
+    border: 2px solid black;
+
+}
+
+ul li{
+    padding: 8px 16px;
+    border-bottom: 2px solid black;
+}
+
+ul li:last-child{
+    border-bottom: none;
+}
+
+main{
+    width: 350px;
+}
+
+li:hover{
+    background: orangered;
+}
